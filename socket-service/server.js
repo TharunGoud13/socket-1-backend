@@ -6,7 +6,7 @@ const httpServer = http.createServer()
 
 const io = new Server(httpServer, {
   cors: {
-    origin: 'https://socket-1-backend-1.onrender.com', // Replace with your frontend URL
+    origin: 'https://socket-ui-seven.vercel.app', // Replace with your frontend URL
     methods: ['GET', 'POST'],
     allowedHeaders: ['my-custom-header'],
     credentials: true,
